@@ -1,3 +1,8 @@
+/*
+task #1000
+Difficulty 17
+ */
+
 import java.util.Scanner;
 
 public class ABProblem {

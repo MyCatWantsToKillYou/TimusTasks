@@ -1,3 +1,8 @@
+/*
+task #1001
+Difficulty 16
+ */
+
 import java.util.Collections;
 import java.util.Scanner;
 import java.util.ArrayList;
