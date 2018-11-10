@@ -1,4 +1,8 @@
-
+/*
+task #1075
+Difficulty 2390
+NOT SOLVED YET
+ */
 import java.util.Scanner;
 
 public class ThreadInSpace {
