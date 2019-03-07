@@ -1,3 +1,6 @@
+# task #2102
+# Difficulty 115
+
 n = int(input())
 if n < 1048576:
     print('No')
