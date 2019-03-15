@@ -1,7 +1,6 @@
 # task #1026
 # Difficulty 147
 a = []
-b = []
 c = []
 for i in range(int(input())):
   a.append(int(input()))
