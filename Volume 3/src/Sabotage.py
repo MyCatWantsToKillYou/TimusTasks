@@ -1,5 +1,5 @@
-# task #1263
-# Difficulty 46
+# task #1290
+# Difficulty 81
 
 a =[]
 m = int(input())
