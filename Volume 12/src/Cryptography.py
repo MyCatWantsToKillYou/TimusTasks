@@ -8,8 +8,12 @@ if n < 1048576:
 Ans = []
 count = 0
 ans = True
+d = 2
+step = 1
 
-for d in range(2, int(n**0.5)+1 and n+1):
+while d < 2000001 and n+1:
+    if d != 2:
+        step = 2
     while n % d == 0:
         count += 1
         n //= d
@@ -30,6 +34,7 @@ for d in range(2, int(n**0.5)+1 and n+1):
     if (d + 1)**(20-count) > n:
         ans = False
         break
+    d += step
 
 if ans and n != 1:
     count += 1
