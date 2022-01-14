@@ -1,5 +1,7 @@
 # task 1370
 # Difficulty 92
+
+
 n, m = map(int,input().split())
 numbers = []
 result = ''
