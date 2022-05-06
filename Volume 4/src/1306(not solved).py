@@ -1,11 +1,10 @@
 # task 1964
-# Difficulty 117
+# Difficulty 152
 
-n = int(input())
-i = 0
-lst = list()
-while i <= n/2:
-    lst.append(int(input()))
-    i += 1
-lst.sort()
-print(lst)
+n, k = map(int, input().split())
+dialects = list(map(int, input().split()))
+
+if sum(dialects)-n*(k-1) <= 0:
+    print(0)
+else:
+    print(sum(dialects)-n*(k-1))
