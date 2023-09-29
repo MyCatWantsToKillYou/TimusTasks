@@ -1,5 +1,5 @@
-#task 1192
-#Difficulty 180
+# task 1192
+# Difficulty 180
 
 num = int(input())
 students, timer, ans = [], 0, 0
